@@ -1,6 +1,35 @@
 import React from 'react'
 
 function Home() {
+
+    const AppFeatures = [
+  {
+    "image": "./assets/image/feature-img-1.png",
+    "title": "fresh and organic",
+    "description": "Fresh vegetables and fruits in cheap price."
+  },
+  {
+    "image": "./assets/image/feature-img-2.png",
+    "title": "free delivery",
+    "description": "We always do fast delivery on our customers."
+  },
+  {
+    "image": "./assets/image/feature-img-3.png",
+    "title": "easy payments",
+    "description": "It is very easy to pay on our website, you can pay easily."
+  }
+]
+
+const showAppFeatures = AppFeatures.map (
+    (item)=>(
+         <div class="box">
+            <img src={item.image} alt=""/>
+            <h3>{item.title}</h3>
+            <p>{item.description}</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    )
+)
   return (
     <div>
         
@@ -25,28 +54,7 @@ function Home() {
     <h1 class="heading"> our <span>features</span> </h1>
 
     <div class="box-container">
-
-        <div class="box">
-            <img src="./assets/image/feature-img-1.png" alt=""/>
-            <h3>fresh and organic</h3>
-            <p>Fresh vegetables and fruits in cheap price.</p>
-            <a href="#" class="btn">read more</a>
-        </div>
-
-        <div class="box">
-            <img src="./assets/image/feature-img-2.png" alt=""/>
-            <h3>free delivery</h3>
-            <p>We always do fast delivery on our customers.</p>
-            <a href="#" class="btn">read more</a>
-        </div>
-
-        <div class="box">
-            <img src="./assets/image/feature-img-3.png" alt=""/>
-            <h3>easy payments</h3>
-            <p>It is very easy to pay on our website, you can pay easily.</p>
-            <a href="#" class="btn">read more</a>
-        </div>
-
+        {showAppFeatures}
     </div>
 
 </section>
