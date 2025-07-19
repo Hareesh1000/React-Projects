@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.headerSection{
+  border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  /* position: fixed; */
+  width: 100%;
+  background:linear-gradient(40deg,rgb(122, 173, 130),rgb(169, 170, 116));
+  border:none;
+  float: left;
+  /* z-index: 1; */
+
+
+
+}
+
+.headerSection h2 {
+
+  color: rgb(58, 114, 13);
+  font-size: 45px;
+  margin: 0em 1em;
+  padding:10px;
+  color: white;
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headerSearch {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  margin: 0em 3em;
+    padding: 10px 10px;
+    border:none
+}
+
+.headerSearch a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+    padding: 10px 10px;
+    font-weight: 500;
+
+}
+
+.headerSearch a:hover{
+  text-decoration: underline;
+}
+
+.headerSearch input {
+  padding: 10px 10px;
+  margin: 0em 4em;
+  width: 60%;
+  border: 1px solid rgb(58, 114, 13);
+  border-radius: 5px;
+
+}
+
+.headerSearch input:hover {
+  cursor: pointer;
+}
+
+
+ .headerIcons {
+    width: 40%;
+    margin: 0 3em 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+    padding: 0;
+}
+
+#loginUser,#shoppingCart {
+    scale: 2;
+    color: rgba(0, 0, 0, 0.425);
+
+    border-radius: 50%;
+  
+}
+
+/*-------Navigation bar design--------------*/
+
+.navBar{
+  border: 2px solid red;
+  float: left;
+  width: 100%;
+}
+
+.navBarcard {
+  display: flex;
+  border: 1px solid black;
+  background-color: #4d8109;
+}
+
+/*-------Navigation bar design end --------------*/
+
+
+
+.mainSection {
+  float: left;
+margin: 8em 0em;
+}
+
+/*---- Menu Section*/
+
+.menuSection{
+
+  float: left;
+  height: 500px;
+  border-right:2px solid rgba(0, 0, 0, 0.103);
+  width: 15%;
+  position: fixed;
+  text-align: center;
+}
+
+.menuList {
+
+  padding:10px;
+  margin:10px 0;
+  background: linear-gradient(172deg,rgb(239, 245, 241) 54%,rgb(99, 206, 117));
+  border:none;
+  border-radius:10px;
+  cursor: pointer;
+  transition:  background 0.5s linear ;
+}
+
+.menuList:hover {
+  background: rgb(99, 206, 117);
+  color: white;
+}
+
+.menuList p{
+  font-size: 20px;
+  font-weight: 600;
+
+}
+
+
+
+/*----End of menu section------------------*/
+
+/*---- Items Section*/
+
+
+.cards_container {
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  padding: 10px;
+  width: 82%;
+}
+
+.card {
+ width:220px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: #fff;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 60%;
+  object-fit: fit;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+.card h3,p {
+  
+  margin: 0.3em;
+  padding: 0.1em;
+
+}
+
+.price {
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.add-button {
+  padding: 9px 21px;
+  background-color: #4d8109;
+  color: white;
+  border: 1px solid red;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+.add-button:hover {
+
+  background-color: white;
+  color:  #4d8109;
+  border: 2px solid #4d8109;
+}
+
+
+
