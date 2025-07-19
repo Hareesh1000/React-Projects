@@ -1,0 +1,23 @@
+[
+  {
+    "image": "./assets/image/blog-1.jpg",
+    "author": "John",
+    "date": "1st oct, 2021",
+    "title": "fresh and organic vegitables and fruits",
+    "description": "Organica Is Where Early Adopters And Innovation Sockers Find Lively, Imaginative Tech Before It Hits The Mainstream."
+  },
+  {
+    "image": "./assets/image/blog-2.jpg",
+    "author": "David",
+    "date": "1st oct, 2021",
+    "title": "fresh and organic vegitables and fruits",
+    "description": "Organica Is Where Early Adopters And Innovation Sockers Find Lively, Imaginative Tech Before It Hits The Mainstream."
+  },
+  {
+    "image": "./assets/image/blog-3.jpg",
+    "author": "Jack",
+    "date": "1st oct, 2021",
+    "title": "fresh and organic vegitables and fruits",
+    "description": "Organica Is Where Early Adopters And Innovation Sockers Find Lively, Imaginative Tech Before It Hits The Mainstream."
+  }
+]

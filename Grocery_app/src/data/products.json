@@ -1,0 +1,63 @@
+[
+  {
+    "image": "./assets/image/product-1.png",
+    "name": "fresh orange",
+    "price": "$4.99/- - 10.99/-",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/product-2.png",
+    "name": "fresh onion",
+    "price": "$6.99/- - 10.99/-",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/product-3.png",
+    "name": "fresh meat",
+    "price": "$4.99/- - 10.99/-",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/product-4.png",
+    "name": "fresh cabbage",
+    "price": "$4.99/- - 10.99/-",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/product-5.png",
+    "name": "fresh potato",
+    "price": "$4.99/- - 10.99/-",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/product-6.png",
+    "name": "fresh avocado",
+    "price": "$4.99/- - 10.99/-",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/product-7.png",
+    "name": "fresh carrot",
+    "price": "$4.99/- - 10.99/-",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/product-8.png",
+    "name": "green lemon",
+    "price": "$4.99/- - 10.99/-",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/product-8.png",
+    "name": "green lemon",
+    "price": "$4.99/- - 10.99/-",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/product-8.png",
+    "name": "green lemon",
+    "price": "$4.99/- - 10.99/-",
+    "rating": 4.5
+  }
+  
+]

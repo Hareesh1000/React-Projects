@@ -1,0 +1,26 @@
+[
+  {
+    "image": "./assets/image/pic-1.png",
+    "text": "Very good website. All the stuff on this website is absolutely great. You all can buy your stuff from here.",
+    "reviewer": "john",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/pic-2.png",
+    "text": "Very good website. All the stuff on this website is absolutely great. You all can buy your stuff from here.",
+    "reviewer": "Juliyana",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/pic-3.png",
+    "text": "Very good website. All the stuff on this website is absolutely great. You all can buy your stuff from here.",
+    "reviewer": "Jonathon",
+    "rating": 4.5
+  },
+  {
+    "image": "./assets/image/pic-4.png",
+    "text": "Very good website. All the stuff on this website is absolutely great. You all can buy your stuff from here.",
+    "reviewer": "Oliveya",
+    "rating": 4.5
+  }
+]

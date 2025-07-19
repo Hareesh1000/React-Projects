@@ -1,0 +1,32 @@
+[
+  {
+    "image": "./assets/image/cat-1.png",
+    "title": "vegitables",
+    "description": "upto 45% off"
+  },
+  {
+    "image": "./assets/image/cat-2.png",
+    "title": "fresh fruits",
+    "description": "upto 45% off"
+  },
+  {
+    "image": "./assets/image/cat-3.png",
+    "title": "dairy products",
+    "description": "upto 45% off"
+  },
+  {
+    "image": "./assets/image/cat-4.png",
+    "title": "fresh meat",
+    "description": "upto 45% off"
+  },
+  {
+    "image": "./assets/image/product-9.png",
+    "title": "see food",
+    "description": "upto 45% off"
+  },
+  {
+    "image": "./assets/image/product-10.jpg",
+    "title": "Fast Food",
+    "description": "upto 45% off"
+  }
+]
