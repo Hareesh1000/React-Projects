@@ -5,6 +5,7 @@ import './itemCards';
 import ItemCards from './itemCards';
 import NavBar from './NavBar';
 import Home from './Home';
+
 import navBarItems from './data/navBarItems.json'
 
 function App() {

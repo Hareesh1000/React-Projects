@@ -1,0 +1,133 @@
+[
+  {
+    "product_id": 1,
+    "name": "Apple",
+    "weight": 1,
+    "price": 40,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ50_BjfYhkXODYKpFzfxWEOtujvKDBa0H3jA&s"
+  },
+  {
+    "product_id": 2,
+    "name": "Orange",
+    "weight": 1,
+    "price": 60,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS25lTHghZPtlrVDF3g0ouVBRbg0oWaWWrW9g&s"
+  },
+  {
+    "product_id": 3,
+    "name": "Pear",
+    "weight": 1,
+    "price": 55,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE9QckvHTzFTtujGT3wVT-6TA366xBra5ecw&s"
+  },
+  {
+    "product_id": 4,
+    "name": "jackfruit",
+    "weight": 1,
+    "price": 45,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPQnwtf4x_tEwrbPTIdAlkYBHAXCJ62MEl-g&s"
+  },
+  {
+    "product_id": 5,
+    "name": "guava",
+    "weight": 1,
+    "price": 50,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAy71WRIKR0JMdAkldQJILTxBl1VaACAAsWw&s"
+  },
+  {
+    "product_id": 6,
+    "name": "Mango",
+    "weight": 1,
+    "price": 100,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7wmsCHDDZYHkR39Xq5b-tmhIGBInYrurRbQ&s"
+  },
+  {
+    "product_id": 7,
+    "name": "Banana",
+    "weight": 1,
+    "price": 25,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCooM2y6fO7732kPaaSo_LHTGBrzL_4g5Vlg&s"
+  },
+  {
+    "product_id": 8,
+    "name": "Lemon",
+    "weight": 1,
+    "price": 20,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaZVC0koLkY3q1fMHSdn6hu50qCEPyFMi8zw&s"
+  },
+
+  {
+    "product_id": 9,
+    "name": "Strawberry",
+    "weight": 1,
+    "price": 70,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYVF1eDgSoBcgaE5WSEqu-cNsZlKtS3CNEiQ&s"
+  },
+  {
+    "product_id": 10,
+    "name": "Pineapple",
+    "weight": 1,
+    "price": 80,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-nW6W77ck3lMxamv4n3cw1ScsmJgXiJG6SQ&s"
+  },
+  {
+    "product_id": 11,
+    "name": "Grapes",
+    "weight": 1,
+    "price": 65,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaG_zj6IbcteRdvAPBmSeFtKmuTW9BVJ2FjQ&s"
+  },
+  {
+    "product_id": 12,
+    "name": "Papaya",
+    "weight": 1,
+    "price": 55,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTE4lxfHcmjZhqoW9GPROeonob692lXdN7Kjg&s"
+  },
+  {
+    "product_id": 13,
+    "name": "Peach",
+    "weight": 1,
+    "price": 60,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTM8cPSwWzdky05SNIebKqYWP3GxhEnQ-SPg&s"
+  },
+  {
+    "product_id": 14,
+    "name": "Watermelon",
+    "weight": 1,
+    "price": 40,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2IAfklkG3Xv9RbUsDTUnfvmW4T_6KGeXqmA&s"
+  },
+  {
+    "product_id": 15,
+    "name": "Blueberry",
+    "weight": 1,
+    "price": 90,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzUR-aZw0L4LBlVN6GVfubsupJ6GWkMyBHyQ&s"
+  },
+  {
+    "product_id": 16,
+    "name": "Pomegranate",
+    "weight": 1,
+    "price": 85,
+    "discount": 2,
+    "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnZw5k0hbPVbbTH_XXdibNJk4enyJhgMsU8A&s"
+  }
+
+
+]

@@ -86,18 +86,256 @@
 /*-------Navigation bar design--------------*/
 
 .navBar{
-  border: 2px solid red;
+  float: left;
+  width: 100%;
+  display: flex;
+text-align: center;
+margin:1em 1em;
+
+
+}
+.navBarcard {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+  margin: 0em 1em;
+  cursor: pointer;
+  border-radius: 10px;
+  text-align: center;
+
+}
+
+.navBarcard:hover img {
+  border: 2px solid rgb(13, 131, 29);
+  background: rgba(156, 139, 139, 0.349);
+}
+
+.imageDiv {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navBarcard img {
+  width: 100%;
+  height: 85%;
+  object-fit: cover;
+  background: white;
+  border: 2px solid rgba(70, 184, 35, 0.562);
+  padding: 4px;
+  box-shadow: 0 0 20px rgba(24, 80, 16, 0.863);
+  transition: border 1s ease, background 1s ease;
+  overflow: hidden;
+  border-radius: 60%;
+}
+
+.navBarcard p {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/*-------Navigation bar design end --------------*/
+
+
+
+/*--Home Section----------------*/
+
+.bannerSection {
+  float: left;
+  width: 100%;
+}
+.banner {
+
+
+  height: 40px;
+  text-align: center;
+ 
+}
+
+.banner img {
+   object-fit: fit;
+    width: 90%;
+  border-radius: 30px;
+    height: 500px;
+}
+
+#advertisement {
+  object-fit: fit;
+    width: 90%;
+  border-radius: 30px;
+    height: 300px;
+}
+
+/* Fruits and vegetables section below---------*/
+
+.displayProduct{
   float: left;
   width: 100%;
 }
 
-.navBarcard {
+.productRow {
   display: flex;
-  border: 1px solid black;
-  background-color: #4d8109;
+  flex-direction: column;
+ align-items: flex-start;
+   overflow-x: hidden; 
+  box-sizing: border-box;
+    scroll-behavior: smooth;  
+      padding: 0 1em;
+          margin: 3em 1em;
 }
 
-/*-------Navigation bar design end --------------*/
+.productTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.productList {
+  display: flex;
+  flex-wrap: wrap;       
+  align-items:flex-start;
+  overflow-x: auto;         
+  overflow-y: hidden;       
+  margin: 0;
+  scroll-behavior: smooth;  
+}
+
+.ProductCard {
+  border: 2px solid rgba(0, 0, 0, 0.349);
+  display: flex;
+  flex-direction: column;
+  margin:0em 1em;
+  width: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
+}
+
+.productName {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1px 10px ;
+  align-items: center;
+}
+
+.ProductCard > p {
+
+  padding: 0 10px;
+}
+.productName h2 {
+   font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+.productName p {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ProductCard h2,p {
+  padding: 0;
+  margin: 5px;
+}
+
+.ProductCard img{
+  border: 2px solid rgba(0, 0, 0, 0.212);
+  width: 95%;
+  height:200px;
+  align-self: center;
+  margin: 10px 0;;
+}
+
+.productPrice {
+  font-weight: 600;
+    font-family: "Fredoka", sans-serif;
+}
+
+.productDiscount {
+  color: green;
+ 
+}
+
+
+.rating {
+  display: flex;
+  align-items: center;
+    color: rgb(48, 170, 65);
+     padding: 0 10px;
+}
+
+.rating p {
+  font-weight: 600;
+}
+
+.addSection {
+    display: flex;
+  align-items: center;
+     padding: 0 10px;
+     justify-content: space-around;
+     margin: 10px 0;
+}
+
+.addSection i {
+scale: 1.6;
+    color: #000000a3;
+}
+
+.add_button {
+       width: 75%;
+    padding: 7px;
+    border: 1px solid red;
+    border-radius: 7px;
+    background-color: white;
+    transition: background 0.4s ease;
+
+}
+
+.add_button:hover {
+
+      background-color: red;
+      color: white;
+}
+
+
+/* Fruits and vegetables section end ---------*/
+
+
+/*-------Home section end-----------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -4,8 +4,10 @@ function NavBar({navItems}) {
 
     const listNavItems = navItems.map(
         (item,index)=>(
-            <div className='.navBarcard'>
-            <img src={item.image} alt="Nav Image"/>
+            <div className='navBarcard'>
+           <div className='imageDiv'>
+             <img src={item.image} alt="Nav Image"/>
+           </div>
             <p>{item.item}</p>
             </div>
             
@@ -13,7 +15,7 @@ function NavBar({navItems}) {
     )
   return (
     <div className='navBar'>
-        <h3>This is nav abr </h3>
+   
         {listNavItems}
     </div>
   )
