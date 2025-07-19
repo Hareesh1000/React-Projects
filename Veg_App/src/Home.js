@@ -1,6 +1,7 @@
 import React from 'react'
 import ProductFruits from './data/ProductFruits.json'
 import Productveg from './data/productVegetable.json'
+import productBakery from './data/productBakery.json'
 
 function Home() {
 
@@ -56,6 +57,34 @@ function Home() {
                </div>
     )
   )
+
+
+      const showProductgrocery = productBakery.slice(0, 5).map (
+    (item) =>(
+<div className='ProductCard'>
+                <img src={item.images[0]}></img>
+                <div className='productName'>
+                  <h2>{item.title} </h2>
+                   {/* <p>{item.quantity}kg</p> */}
+                </div>
+          
+                 <p className='productPrice'>₹ {item.price}</p>
+                
+                 <p className='productDiscount'> {item.brand}</p>
+                 {/* <div className='rating'>
+                      <i class="fa-solid fa-star"></i><p> 4.5(125)</p>
+                 </div> */}
+                 <div className='addSection'>
+                  
+                  <i class="fa-regular fa-bookmark"></i>
+                  <button className='add_button'>Add</button>
+                 </div>
+                  
+               </div>
+    )
+  )
+
+
   return (
     <div className='bannerSection'>
       {/* <div className='banner'>
@@ -87,6 +116,19 @@ function Home() {
             <div className='productList'>
 
               {showProductveg}
+            </div>
+           
+        </div> {/*Row end*/}
+
+
+         <div className='productRow'>
+            <div className='productTitle'>
+              <h2>Sweet and chocolates</h2>
+              <a> See More</a>
+            </div>
+            <div className='productList'>
+
+              {showProductgrocery}
             </div>
            
         </div> {/*Row end*/}

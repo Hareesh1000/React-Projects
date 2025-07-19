@@ -235,6 +235,9 @@ margin:1em 1em;
   font-weight: 500;
   font-style: normal;
   font-size: 20px;
+ overflow: hidden;
+white-space: nowrap;
+text-overflow: ellipsis;
 }
 
 .productName p {
