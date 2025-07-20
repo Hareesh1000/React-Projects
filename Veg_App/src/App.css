@@ -195,7 +195,11 @@ margin:1em 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 90%;
+  width: 96%;
+}
+
+.productTitle {
+    margin: 0.5em 1em;
 }
 
 .productList {
@@ -209,12 +213,13 @@ margin:1em 1em;
 }
 
 .ProductCard {
-  border: 2px solid rgba(0, 0, 0, 0.349);
   display: flex;
   flex-direction: column;
   margin:0em 1em;
   width: 250px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.349);
+  box-shadow: 0 0 10px rgba(57, 126, 25, 0.582);
+  border:1px solid rgba(123, 219, 85, 0.507);
+  
 }
 
 .productName {
@@ -253,7 +258,7 @@ text-overflow: ellipsis;
 }
 
 .ProductCard img{
-  border: 2px solid rgba(0, 0, 0, 0.212);
+  border: 0.2px solid rgba(0, 0, 0, 0.212);
   width: 95%;
   height:200px;
   align-self: center;
@@ -288,6 +293,8 @@ text-overflow: ellipsis;
      padding: 0 10px;
      justify-content: space-around;
      margin: 10px 0;
+
+     padding: 6px 10px;
 }
 
 .addSection i {
