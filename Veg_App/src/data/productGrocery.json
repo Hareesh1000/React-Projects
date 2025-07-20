@@ -1,0 +1,92 @@
+[
+  {
+    "product_id": 1,
+    "name": "Parle-G Biscuits",
+    "brand": "Parle",
+    "category": "Biscuits",
+    "pack_size": "800g",
+    "price_inr": 70,
+    "image_url": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg"
+  },
+  {
+    "product_id": 2,
+    "name": "Amul Butter",
+    "brand": "Amul",
+    "category": "Dairy",
+    "pack_size": "500g",
+    "price_inr": 280,
+    "image_url": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg"
+  },
+  {
+    "product_id": 3,
+    "name": "Britannia Cake",
+    "brand": "Britannia",
+    "category": "Bakery",
+    "pack_size": "250g",
+    "price_inr": 80,
+    "image_url": "https://images.pexels.com/photos/302999/pexels-photo-302999.jpeg"
+  },
+  {
+    "product_id": 4,
+    "name": "Aashirvaad Atta",
+    "brand": "ITC",
+    "category": "Flour",
+    "pack_size": "5kg",
+    "price_inr": 245,
+    "image_url": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg"
+  },
+  {
+    "product_id": 5,
+    "name": "Maggi Instant Noodles",
+    "brand": "Nestle",
+    "category": "Noodles",
+    "pack_size": "560g (12 pack)",
+    "price_inr": 105,
+    "image_url": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg"
+  },
+  {
+    "product_id": 6,
+    "name": "Nestlé Munch Chocolate",
+    "brand": "Nestlé",
+    "category": "Chocolate",
+    "pack_size": "6 x 12.8g",
+    "price_inr": 60,
+    "image_url": "https://images.pexels.com/photos/1576483/pexels-photo-1576483.jpeg"
+  },
+  {
+    "product_id": 7,
+    "name": "Sunfeast Dark Fantasy Cookies",
+    "brand": "ITC",
+    "category": "Biscuits",
+    "pack_size": "250g",
+    "price_inr": 70,
+    "image_url": "https://images.pexels.com/photos/230325/pexels-photo-230325.jpeg"
+  },
+  {
+    "product_id": 8,
+    "name": "Amul Cheese Slices",
+    "brand": "Amul",
+    "category": "Dairy",
+    "pack_size": "200g",
+    "price_inr": 140,
+    "image_url": "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg"
+  },
+  {
+    "product_id": 9,
+    "name": "Haldiram’s Aloo Bhujia",
+    "brand": "Haldiram’s",
+    "category": "Snacks",
+    "pack_size": "400g",
+    "price_inr": 120,
+    "image_url": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg"
+  },
+  {
+    "product_id": 10,
+    "name": "Dabur Real Fruit Juice",
+    "brand": "Dabur",
+    "category": "Beverages",
+    "pack_size": "1L",
+    "price_inr": 120,
+    "image_url": "https://images.pexels.com/photos/461382/pexels-photo-461382.jpeg"
+  }
+]
