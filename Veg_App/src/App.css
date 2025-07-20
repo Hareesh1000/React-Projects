@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 
+
 .headerSection{
   border-bottom: 1px solid rgba(0, 0, 0, 0.452);
   padding: 10px 10px;
@@ -16,6 +17,12 @@
 
 
 }
+
+.headerSection a {
+  cursor: pointer;
+text-decoration: none;}
+
+
 
 .headerSection h2 {
 
@@ -91,9 +98,11 @@
   display: flex;
 text-align: center;
 margin:1em 1em;
-
+    padding: 1.5em 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.24);
 
 }
+
 .navBarcard {
   display: flex;
   flex-direction: column;
@@ -108,7 +117,7 @@ margin:1em 1em;
 }
 
 .navBarcard:hover img {
-  border: 2px solid rgb(13, 131, 29);
+  border: 2px solid rgb(196, 86, 86);
   background: rgba(156, 139, 139, 0.349);
 }
 
@@ -195,11 +204,19 @@ margin:1em 1em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 96%;
+  width: 94%;
+  margin: 0.5em 1em;
 }
 
-.productTitle {
-    margin: 0.5em 1em;
+.productTitle a {
+    font-weight: 800;
+    color: rgb(240, 84, 84);
+    cursor: pointer;
+}
+
+.productTitle a:hover {
+  text-decoration: underline;
+  color: rgb(245, 40, 40);
 }
 
 .productList {
@@ -458,3 +475,156 @@ margin: 8em 0em;
 
 
 
+
+/* ----------------Veg Section----------------------- */
+
+
+.itemSection {
+  display: flex;
+   background-color: #eaf1e8;
+    font-family: "Fredoka", sans-serif;
+    float: left;
+}
+
+.filterSection {
+    width: 25%;
+    float: left;
+    margin: 5em 0em;
+    border: 1px solid black;
+    text-align: center;
+    overflow: auto;
+     /* background-color: rgba(223, 223, 192, 0.171); */
+         height: 1000px;
+
+}
+
+.filterSection h2{
+    font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 20px;
+}  
+
+.categoryList {
+  text-align: left;
+  padding: 0 2em;
+    background-color: rgba(223, 223, 192, 0.384);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.397);
+}
+
+.categoryList h3 {
+  color: #4d8109;
+  padding: 0;
+  padding-top: 1em;
+}
+
+.categoryList ul {
+  list-style-type: none;
+    width: 100%;
+  padding: 0 0.4em;
+}
+
+.categoryList li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+  padding:8px 0px;
+  cursor: pointer;
+
+}
+
+.categoryList a{
+  cursor: pointer;
+}
+
+.categoryList li:hover {
+   background-color: rgba(223, 223, 192, 0.781);
+}
+
+
+
+/* -------------------Footer Section Below ------------------- */
+
+
+.footer {
+ background:linear-gradient(40deg,rgb(122, 173, 130),rgb(169, 170, 116));  color: #fff;
+  padding: 40px 60px;
+  font-family: Arial, sans-serif;
+  float: left;
+  width: 100%;
+}
+
+.footerSection {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footerColumn {
+  flex: 1;
+  min-width: 180px;
+  margin-bottom: 20px;
+}
+
+.footerColumn h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #fff;
+}
+
+.footerColumn ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerColumn ul li {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.footerColumn ul li:hover {
+  text-decoration: underline;
+  color: #fff;
+}
+
+.footerBrand {
+  flex: 1.5;
+  min-width: 280px;
+  text-align: center;
+}
+
+.footerLogo img {
+  height: 111px;
+  margin-bottom: 5px;
+}
+
+.footerLogo p {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.app-links img {
+  height: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.social-icons {
+  margin-top: 15px;
+}
+
+.social-icons i {
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  color: #ccc;
+}
+
+.social-icons i:hover {
+  color: #fff;
+}
+
+footer hr {
+  margin-top: 30px;
+  border: 0.5px dotted #444;
+}

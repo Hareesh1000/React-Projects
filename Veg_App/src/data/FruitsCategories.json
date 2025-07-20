@@ -1,0 +1,84 @@
+[{
+  "Citrus Fruits": [
+    "Orange",
+    "Lemon",
+    "Lime",
+    "Grapefruit",
+    "Sweet Lime (Mosambi)",
+    "Mandarin",
+    "Pomelo"
+  ],
+  "Berries": [
+    "Strawberry",
+    "Blueberry",
+    "Raspberry",
+    "Blackberry",
+    "Gooseberry (Amla)",
+    "Mulberry",
+    "Cranberry"
+  ],
+  "Stone Fruits (Drupes)": [
+    "Mango",
+    "Peach",
+    "Plum",
+    "Cherry",
+    "Apricot",
+    "Lychee",
+    "Nectarine"
+  ],
+  "Tropical and Subtropical Fruits": [
+    "Banana",
+    "Pineapple",
+    "Guava",
+    "Papaya",
+    "Jackfruit",
+    "Passion Fruit",
+    "Custard Apple (Sitaphal)",
+    "Sapodilla (Chikoo)",
+    "Mangosteen",
+    "Rambutan",
+    "Avocado"
+  ],
+  "Melons": [
+    "Watermelon",
+    "Muskmelon (Cantaloupe)",
+    "Honeydew Melon",
+    "Winter Melon (Ash Gourd)"
+  ],
+  "Pome Fruits": [
+    "Apple",
+    "Pear",
+    "Quince"
+  ],
+  "Grapes and Vines": [
+    "Green Grapes",
+    "Red Grapes",
+    "Black Grapes",
+    "Kiwi",
+    "Passion Fruit"
+  ],
+  "Figs and Mulberries": [
+    "Fig (Anjeer)",
+    "Mulberry",
+    "Breadfruit"
+  ],
+  "Dry Fruits (Botanical Fruits)": [
+    "Dates",
+    "Raisins",
+    "Prunes",
+    "Dried Apricots",
+    "Dried Figs"
+  ],
+  "Cactus Fruits": [
+    "Dragon Fruit",
+    "Prickly Pear"
+  ],
+  "Miscellaneous": [
+    "Pomegranate",
+    "Tamarind",
+    "Olive",
+    "Star Fruit (Carambola)",
+    "Jujube (Ber)"
+  ]
+}
+]

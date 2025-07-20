@@ -2,13 +2,17 @@ import React from 'react'
 import ProductFruits from './data/ProductFruits.json'
 import Productveg from './data/productVegetable.json'
 import productBakery from './data/productBakery.json'
+import NavBar from './NavBar'
+import {Link} from 'react-router-dom'
+import navBarItems from './data/navBarItems.json'
+
 
 function Home() {
 
 
   {/* Display only first five items in the Home page ------*/}
 
-  const showProductList = ProductFruits.slice(0, 5).map (
+  const showProductFruits = ProductFruits.slice(0, 5).map (
     (item) =>(
 <div className='ProductCard'>
                 <img src={item.url}></img>
@@ -86,7 +90,16 @@ function Home() {
 
 
   return (
-    <div className='bannerSection'>
+    
+    <div>
+          {/* calling  Navbar Item here------------*/}
+
+          <NavBar navItems={navBarItems}/>
+
+<div className='bannerSection'>
+    
+  
+    
       {/* <div className='banner'>
           <img src='./assets/images/Rice-atta.png' id='advertisement'></img>
            <img src='./assets/images/fresh_bites.png'></img>
@@ -98,20 +111,20 @@ function Home() {
       <div className='displayProduct'>
         <div className='productRow'>
             <div className='productTitle'>
-              <h2>Fruits and vegetables</h2>
-              <a> See More</a>
+              <h2>Fruits</h2>
+              <Link to='/fruits'> See More</Link>
             </div>
             <div className='productList'>
 
-              {showProductList}
+              {showProductFruits}
             </div>
            
         </div> {/*Row end*/}
 
         <div className='productRow'>
             <div className='productTitle'>
-              <h2>Fruits and vegetables</h2>
-              <a> See More</a>
+              <h2>Vegetables</h2>
+              <Link to='/vegetables'> See More</Link>
             </div>
             <div className='productList'>
 
@@ -124,7 +137,7 @@ function Home() {
          <div className='productRow'>
             <div className='productTitle'>
               <h2>Sweet and chocolates</h2>
-              <a> See More</a>
+              <Link to='/sweets'> See More</Link>
             </div>
             <div className='productList'>
 
@@ -136,8 +149,13 @@ function Home() {
 
 
       </div>
+       
+    </div>
 
     </div>
+    
+    
+    
   )
 }
 
