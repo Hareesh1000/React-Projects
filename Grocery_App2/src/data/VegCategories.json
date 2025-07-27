@@ -1,0 +1,86 @@
+[{
+  "Leafy Greens": [
+    "Spinach",
+    "Lettuce",
+    "Kale",
+    "Mustard Greens",
+    "Swiss Chard",
+    "Collard Greens",
+    "Fenugreek Leaves (Methi)",
+    "Amaranth Leaves"
+  ],
+  "Root Vegetables": [
+    "Carrot",
+    "Radish",
+    "Beetroot",
+    "Turnip",
+    "Sweet Potato",
+    "Yam",
+    "Tapioca",
+    "Onion",
+    "Garlic"
+  ],
+  "Cruciferous Vegetables": [
+    "Cabbage",
+    "Cauliflower",
+    "Broccoli",
+    "Brussels Sprouts",
+    "Bok Choy"
+  ],
+  "Bulbs": [
+    "Onion",
+    "Garlic",
+    "Shallots",
+    "Leeks",
+    "Spring Onion"
+  ],
+  "Fruiting Vegetables": [
+    "Tomato",
+    "Cucumber",
+    "Bell Pepper (Capsicum)",
+    "Eggplant (Brinjal)",
+    "Pumpkin",
+    "Zucchini",
+    "Okra (Ladyfinger)",
+    "Chayote",
+    "Bottle Gourd",
+    "Ridge Gourd",
+    "Snake Gourd",
+    "Bitter Gourd"
+  ],
+  "Legumes / Pods": [
+    "Green Beans",
+    "Snow Peas",
+    "Sugar Snap Peas",
+    "Broad Beans",
+    "Cluster Beans (Gawar)",
+    "Drumstick (Moringa)"
+  ],
+  "Stems and Shoots": [
+    "Celery",
+    "Asparagus",
+    "Bamboo Shoots",
+    "Lotus Stem"
+  ],
+  "Tubers": [
+    "Potato",
+    "Sweet Potato",
+    "Yam",
+    "Taro Root (Arbi)"
+  ],
+  "Mushrooms (Fungi)": [
+    "Button Mushroom",
+    "Oyster Mushroom",
+    "Shiitake Mushroom",
+    "Portobello Mushroom"
+  ],
+  "Herbs (Edible Greens)": [
+    "Coriander (Cilantro)",
+    "Mint",
+    "Basil",
+    "Parsley",
+    "Dill",
+    "Thyme"
+  ]
+}
+]

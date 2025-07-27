@@ -7,6 +7,8 @@ import NavBar from './NavBar';
 import Home from './Home';
 
 import navBarItems from './data/navBarItems.json'
+import AppRouter from './AppRouter';
+import { BrowserRouter } from 'react-router-dom'; 
 
 function App() {
 
@@ -37,17 +39,20 @@ const menuItems = ['All Items', 'Fresh Vegetables','Herbs & seasonings','Dry Fru
   
 
   return (
-    <div>
-      <Header />
-      <NavBar navItems={navBarItems}/>
-      <Home></Home>
+    // <div>
+    //   <Header />
+    //   <NavBar navItems={navBarItems}/>
+    //   <Home></Home>
 
-      <div className='mainSection'>
-      {/* <Menu  menuItems={menuItems} /> */}
-      {/* <ItemCards vegItems ={data} /> */}
-      </div>
+    //   <div className='mainSection'>
+    //   {/* <Menu  menuItems={menuItems} /> */}
+    //   {/* <ItemCards vegItems ={data} /> */}
+    //   </div>
       
-    </div>
+    // </div>
+    <BrowserRouter> 
+      <AppRouter />
+    </BrowserRouter>
   );
 
 }
