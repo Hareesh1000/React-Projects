@@ -18,6 +18,7 @@
   float: left;
   z-index: 1;
   margin: 0;
+  top:0;
 }
 
 .headerSection a {
@@ -99,9 +100,9 @@ text-decoration: none;}
   width: 100%;
   display: flex;
 text-align: center;
-margin:1em 0em;
     padding: 1.5em 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+        margin: 4em 0em 0em 0em;
 
 }
 
@@ -334,6 +335,27 @@ scale: 1.6;
 
 .add_button:hover {
 
+      background-color: red;
+      color: white;
+}
+
+
+.itemCountButton {
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+  
+
+}
+
+.itemCountButton button {
+  padding: 5px 20px;
+  font-size: larger;
+   border: 1px solid red;
+   border-radius: 5px;
+}
+
+.itemCountButton button:hover{
       background-color: red;
       color: white;
 }
