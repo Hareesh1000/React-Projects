@@ -5,7 +5,7 @@ function Menu() {
     <div className='menuSection'>
 
         <div className='userName'>
-            <p>USER123</p>
+            <p>MY TODO LIST</p>
 
       </div>
             <div className='menuList'>
