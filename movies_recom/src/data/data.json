@@ -1,0 +1,16 @@
+[
+  {
+    "Action": [
+      { "name": "Mad Max: Fury Road", "rating": "8.1", "review": "Post-apocalyptic thrill ride." },
+      { "name": "John Wick", "rating": "7.4", "review": "Stylish and intense action." }
+    ],
+    "Comedy": [
+      { "name": "The Mask", "rating": "6.9", "review": "Jim Carrey at his best!" },
+      { "name": "Superbad", "rating": "7.6", "review": "Teen chaos and humor." }
+    ],
+    "SciFi": [
+      { "name": "Inception", "rating": "8.8", "review": "Mind-bending and brilliant." },
+      { "name": "Interstellar", "rating": "8.6", "review": "Visually stunning space odyssey." }
+    ]
+  }
+]
