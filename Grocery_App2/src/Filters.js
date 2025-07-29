@@ -3,14 +3,14 @@ import React from 'react';
 
 function Filters({filterList}) {
 
-  const vegetableCategories = filterList[0];
+  const productCategories = filterList[0];
 
   
-  const showVegFilter = Object.keys(vegetableCategories).map((element) => (
+  const showProductFilter = Object.keys(productCategories).map((element) => (
     <div className='categoryList' key={element}>
       <h3>{element}</h3>
       <ul>
-        {vegetableCategories[element].map((item, index) => (
+        {productCategories[element].map((item, index) => (
           <li key={index}><a>{item}</a></li>
         ))}
       </ul>
@@ -20,8 +20,8 @@ function Filters({filterList}) {
   return (
     <div className='filterSection'>
       <h2>Shop by Category</h2>
-      {showVegFilter}
-      {/* {console.log(showVegFilter)} */}
+      {showProductFilter}
+      {/* {console.log(showProductFilter)} */}
     </div>
   );
 }

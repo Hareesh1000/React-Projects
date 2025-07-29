@@ -1,21 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Manufacturing+Consent&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-
+.body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #f4f4f4;
+}
 
 .headerSection{
   border-bottom: 1px solid rgba(0, 0, 0, 0.452);
-  padding: 10px 10px;
+  padding: 0;
   display: flex;
   align-items: center;
-  /* position: fixed; */
+  position: fixed;
   width: 100%;
   background:linear-gradient(40deg,rgb(122, 173, 130),rgb(169, 170, 116));
-  border:none;
   float: left;
-  /* z-index: 1; */
-
-
-
+  z-index: 1;
+  margin: 0;
+  top:0;
 }
 
 .headerSection a {
@@ -97,9 +100,9 @@ text-decoration: none;}
   width: 100%;
   display: flex;
 text-align: center;
-margin:1em 1em;
     padding: 1.5em 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.24);
+        margin: 4em 0em 0em 0em;
 
 }
 
@@ -223,6 +226,7 @@ margin:1em 1em;
   display: flex;
   flex-wrap: wrap;       
   align-items:flex-start;
+  justify-content: space-around;
   overflow-x: auto;         
   overflow-y: hidden;       
   margin: 0;
@@ -233,7 +237,7 @@ margin:1em 1em;
   display: flex;
   flex-direction: column;
   margin:0em 1em;
-  width: 250px;
+  width: 240px;
   box-shadow: 0 0 10px rgba(57, 126, 25, 0.582);
   border:1px solid rgba(123, 219, 85, 0.507);
   
@@ -336,6 +340,27 @@ scale: 1.6;
 }
 
 
+.itemCountButton {
+  display: flex;
+  flex-direction: row;
+  gap:5px;
+  
+
+}
+
+.itemCountButton button {
+  padding: 5px 20px;
+  font-size: larger;
+   border: 1px solid red;
+   border-radius: 5px;
+}
+
+.itemCountButton button:hover{
+      background-color: red;
+      color: white;
+}
+
+
 /* Fruits and vegetables section end ---------*/
 
 
@@ -344,31 +369,10 @@ scale: 1.6;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .mainSection {
   float: left;
 margin: 8em 0em;
+
 }
 
 /*---- Menu Section*/
@@ -545,8 +549,9 @@ margin: 8em 0em;
 
 
 .footer {
- background:linear-gradient(40deg,rgb(122, 173, 130),rgb(169, 170, 116));  color: #fff;
-  padding: 40px 60px;
+  background:linear-gradient(40deg,rgb(122, 173, 130),rgb(169, 170, 116));  
+  color: #fff;
+  /* padding: 40px 60px; */
   font-family: Arial, sans-serif;
   float: left;
   width: 100%;
@@ -562,6 +567,7 @@ margin: 8em 0em;
   flex: 1;
   min-width: 180px;
   margin-bottom: 20px;
+  padding:10px 20px;
 }
 
 .footerColumn h3 {
