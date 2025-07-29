@@ -1,0 +1,132 @@
+/*-Meals Section*/
+
+.all_Items {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+  padding: 1em 10em;
+  gap:2em;
+
+}
+
+.mealsSection h4{
+  display: block;
+  font-weight: 400;
+  font-size: 33px;
+  margin: 2em 0 1em 4em;
+
+}
+
+.foodItemCard{
+  border: 2px solid rgba(49, 48, 48, 0.096);
+  float: left;
+ width:25%;
+padding: 0px;
+ border-radius: 14px;
+}
+
+.foodItemType {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0;
+  margin:0em;
+  overflow: auto;
+}
+.foodItemType {
+  text-overflow: hidden;
+}
+
+.foodItemCard img {
+ width: 100%;
+  height: 61%;
+   border-radius: 14px;
+}
+
+.foodItemCard h3 {
+  line-height: 1.2;
+  font-weight: 500;
+  text-align: left;
+  font-size: 1.7rem;
+  margin: 0.8rem 0px 0.6rem;
+  color: rgb(28, 28, 28);
+  padding: 0 15px;
+}
+
+.foodItemCard p {
+  font-size: inherit;
+  line-height: 1.5;
+  margin: 0px;
+  text-align: left;
+  color: rgb(105, 105, 105);
+  max-width: 56%;
+padding: 0 15px 0;
+}
+
+#foodCategory {
+  float: right;
+  padding:0;
+  margin: 0;
+  color: white;
+  text-align: center;
+  padding:2px 16px;
+  background-color: #c53486;
+  border-radius: 10px;
+margin: 1.2em 1.2em;
+}
+
+
+/*------------Header-----------------*/
+.header {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+margin: 10px 0px;
+}
+
+
+.header h3 {
+  font-size: 27px;
+  margin: 16px 10px;
+}
+
+.userLogin {
+ display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 14%;
+  gap: 40px;
+}
+
+
+#searchBox {
+  width: 45%;
+  padding: 0;
+  margin: 5px 0px;
+  border: 2px solid rgba(128, 128, 128, 0.286);
+  border-radius: 10px;
+  box-shadow: 7px 10px 3px rgba(128, 128, 128, 0.251);
+}
+
+/*------Navbar section-----------*/
+
+.navbar {
+  display:flex;
+  justify-content: center;
+  gap: 10em;
+
+}
+
+.navbar p {
+  font-weight: 500;
+  font-size: 2rem;
+  color: rgb(239, 79, 95);
+}
+
+.navbar a {
+  cursor: pointer;
+}
+
+/*-----------------------*/
