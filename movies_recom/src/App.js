@@ -10,10 +10,10 @@ function App() {
 
   return (
     <div className="App">
-      <h1> Movie Recommender</h1>
-      <p>Select a genre to get started:</p>
+      <h1> Movie Recommendation</h1>
+      <p>Select a genre :</p>
 
-      <div className="genre-buttons">
+      <div className="genreButtons">
         {genres.map((genre) => (
           <button key={genre} onClick={() => setSelectedGenre(genre)}>
             {genre}
@@ -21,9 +21,12 @@ function App() {
         ))}
       </div>
 
-      <div className="movie-list">
+      <div className="movieList">
         {movieDB[selectedGenre].map((movie, index) => (
-          <div className="movie-card" key={index}>
+          <div className="movieCard" key={index}>
+            <div className='moviePosterSection'> 
+              <img className='moviePoster' src={movie.url} alt='Movie Poster'></img>
+            </div>
             <h3>{movie.name}</h3>
             <p>⭐ {movie.rating}</p>
             <p>{movie.review}</p>
