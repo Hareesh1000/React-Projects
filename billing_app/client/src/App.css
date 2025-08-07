@@ -1,0 +1,63 @@
+.mainSection {
+    display: flex;
+    width: 100%;
+    border: 2px solid red;
+    justify-content: center;
+}
+
+.leftSection {
+    border:2px solid green;
+    width: 100%;
+}
+
+.rightSection {
+    width: 100%;
+}
+
+/*-------------Product section----------------------------*/
+
+
+#dropdown-item-button {
+    color: red ;
+}
+
+.itemContainer {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:10px;
+     
+}
+.itemCard {
+    display: flex;
+    border: 2px solid red;
+      height: 100px;
+      width: 30%;
+      text-align: center;
+      justify-content: center;
+      align-items: flex-end;
+       opacity: 0.8;
+       cursor: pointer;
+
+}
+
+.itemCard p {
+    color: white;
+    margin: 0;
+}
+
+.itemCard  {
+   
+}
+
+.itemCard:hover {
+    opacity: 1;
+}
+
+.itemCard:hover .itemCard p{
+    color: red;
+}
+
+
+/*-------------Product section----end------------------------*/
