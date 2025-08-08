@@ -1,18 +1,19 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
-function Products({product}) {
+function Products({product,addItem,setAddItem}) {
 
-    const [addItem,setAddItem] = useState([])
+    // const [addItem,setAddItem] = useState([])
 
 
    function addToLocal(item) {
     const updatedItems = [...addItem, item];
     setAddItem(updatedItems);
-    console.log(updatedItems);
-    localStorage.setItem('selected_items', JSON.stringify(updatedItems));
+    // console.log(addItem);
+    // localStorage.setItem('selected_items', JSON.stringify(updatedItems));
 }
+
 
 
     const showProducts = product.map (
